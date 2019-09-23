@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class w4p2 {
+	private static String answer;
+
+	public static void main(String[] args) {
+		int creditScore, age;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("hello I'm a car dealer,\ndo you want to buy a car?");
+		answer = input.next();
+		
+		if(answer.equalsIgnoreCase("Yes")) {
+			System.out.println("OK, let me show you what I have...");
+		}else {
+			
+			System.out.println("OK, come back when you are ready");
+		}
+
+	}
+
+}
