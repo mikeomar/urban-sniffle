@@ -1,2 +1,2 @@
 # urban-sniffle
-CMP326 Homework
+CMP326 class notes
